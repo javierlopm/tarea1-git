@@ -1,0 +1,9 @@
+working directory: Es uno de los 3 estados de un proyecto de git, aquí se
+encuentra en la computadora en la que se esta trabajando una copia del
+repositorio, a partir de los cambios generados aquí se guarda una copia del
+proyecto local y este "screenshot" es empleado por el usuario para actualizar el
+proyecto de git mediante un commit.
+
+index: es el segundo estado de un proyecto, son los archivos modificados del
+working directory, a los cuales se le aplico el comando "git add" para que
+posteriormente sean parte del proyecto alojado en el servidor remoto de git. index tambien es conocido como staging area o directory cache.
