@@ -1,4 +1,4 @@
 tarea1-git
 ==========
 
-Repositorio con el Ejercicio de Git de la Tarea 1 de USB Devlab.
+Repositorio con el ejercicio de Git de la tarea 1 de USB DEVlab con los problemas resueltos.
