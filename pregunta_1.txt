@@ -1,4 +1,5 @@
-d788d4237df89ad337879f27ba105b7999236dd2
+072f00023543b388270e0c8cd12a4ed1394f4d66 <- Solucion de git
+d788d4237df89ad337879f27ba105b7999236dd2 <- Solucion con mas modificaciones
 
 
 Un hash es una cadena de caracteres única teoricamente creada a partir de un
