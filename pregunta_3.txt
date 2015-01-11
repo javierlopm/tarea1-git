@@ -9,7 +9,30 @@ working directory, a los cuales se le aplico el comando "git add" para
 queposteriormente sean parte del proyecto alojado en el servidor remoto de git.
 El index tambien es conocido como staging area o directory cache.
 
-repositorio local:
 
-repositorio remoto:
 
+Un repositorio es una ubicación en la que se encuentran un conjunto de archivos
+almacenados con cierta jerarquía y orden, la cual es descrita por metadatos
+(fichas de descripción de datos).
+
+repositorio local: es el repositorio ubicado en el equipo de un usuario de git,
+en el realiza modificaciones en un proyecto para posteriormente actualizar los
+archivos en el servidor remoto mediante adds, commits y pushs.
+
+repositorio remoto: repositorio ubicado en los resvidores de github, contiene
+todos los screenshots del proyecto (commits), de los cuales se hacen
+responsables por pérdidas. Un usuario puede observar las modificaciones
+realizadas entre versiones mediante checkouts, crear nuevos branches, extraer el
+contenido del repositorio remoto y agregarlo al local mediante pulls.
+
+dirty working tree:
+
+
+merge conflict: problemas de consistencia encontrados por github entre las
+versiones de diferentes branches. Estos problema pueden ser generados por dos
+versiones que poseen una misma línea modificada de dos formas diferentes, o
+cuando un usuario elimina una línea que otro decidió modificar. Estos problemas
+son al momento de realizar la integración de dos branches, github mostrará los
+archivo que no pudieron ser actualizado debido a estos conflictos, e indicará
+las líneas causantes del problema, aquí el usuario decide con que alternativa de
+línea desea adoptar, para posteriormente guardarlos en un commit.
