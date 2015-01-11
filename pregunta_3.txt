@@ -5,5 +5,11 @@ proyecto local y este "screenshot" es empleado por el usuario para actualizar el
 proyecto de git mediante un commit.
 
 index: es el segundo estado de un proyecto, son los archivos modificados del
-working directory, a los cuales se le aplico el comando "git add" para que
-posteriormente sean parte del proyecto alojado en el servidor remoto de git. index tambien es conocido como staging area o directory cache.
+working directory, a los cuales se le aplico el comando "git add" para
+queposteriormente sean parte del proyecto alojado en el servidor remoto de git.
+El index tambien es conocido como staging area o directory cache.
+
+repositorio local:
+
+repositorio remoto:
+
