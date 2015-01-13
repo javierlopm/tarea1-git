@@ -2,8 +2,7 @@
 d788d4237df89ad337879f27ba105b7999236dd2 <- Solucion con mas modificaciones
 
 
-Un hash es una cadena de caracteres única teoricamente creada a partir de un
-archivo u otra cadena de caracteres. En git es útil porque permite identificar
-una versión de proyecto (merge,publish,comit) alojada en el repositorio remoto.
-Esto se realliza mediante el comando "git checkout
-[primeros_caracteres_del_hash]"
+Un hash es una cadena de caracteres única creada a partir de un archivo u otra
+cadena de caracteres. En git es útil porque permite identificar una versión de
+proyecto (merge,publish,comit) alojada en el repositorio remoto. Esto se
+realliza mediante el comando "git checkout [primeros_caracteres_del_hash]"
