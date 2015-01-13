@@ -9,8 +9,6 @@ working directory, a los cuales se le aplico el comando "git add" para
 queposteriormente sean parte del proyecto alojado en el servidor remoto de git.
 El index tambien es conocido como staging area o directory cache.
 
-
-
 Un repositorio es una ubicación en la que se encuentran un conjunto de archivos
 almacenados con cierta jerarquía y orden, la cual es descrita por metadatos
 (fichas de descripción de datos).
@@ -25,8 +23,10 @@ responsables por pérdidas. Un usuario puede observar las modificaciones
 realizadas entre versiones mediante checkouts, crear nuevos branches, extraer el
 contenido del repositorio remoto y agregarlo al local mediante pulls.
 
-dirty working tree:
-
+dirty working tree: Ocurre cuando en el directorio del repositorio local hay
+archivos ajenos al proyecto, los cuales no son seguidos por el index. Se dice
+que un index esta sucio cuando los archivos almacenados en HEAD (los del último
+commit) no concuerdan con los del directorio dado.
 
 merge conflict: problemas de consistencia encontrados por github entre las
 versiones de diferentes branches. Estos problema pueden ser generados por dos
